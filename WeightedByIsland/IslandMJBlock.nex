@@ -1,0 +1,26 @@
+#NEXUS
+
+begin paup;
+
+    log file=AllIslandConsensus.log start replace=yes;
+
+    set autoclose=yes;
+
+	gettrees file=FirstIslandWeights.tre mode=3;
+
+	gettrees file=SecondIslandWeights.tre mode=7;
+
+    gettrees file=ThirdIslandWeights.tre mode=7;
+
+    gettrees file=FourthIslandWeights.tre mode=7;
+
+    gettrees file=FifthIslandWeights.tre mode=7;
+
+    contree all / majrule=yes usetreewts=yes strict=no treefile=AllIslands50.tre;
+	
+	contree all / majrule=no strict=yes treefile=AllIslandsStrict.tre;
+ 
+    log stop;
+
+
+END;

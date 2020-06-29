@@ -1,0 +1,20 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Jul 03 12:41:24 2019]
+[!
+>Consensus of 90 trees
+>
+>Source of trees from which consensus(es) calculated...
+>
+>Processing TREES block from file:
+>D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\RarifiedScript\FifthIsland.tre
+>  Keeping: trees in memory plus trees from file
+>  396 trees originally in memory
+>  486 trees read from file
+>  486 trees from file kept
+>  882 trees now in memory
+>
+>  Time used = 0.05 sec (CPU time = 0.05 sec)
+]
+	tree MajRule = [&U] (Proterogryinus_scheelei,Greererpeton_burkemorani,(((((Edops_craigi,(Adamanterpeton_ohioensis,((Cochleosaurus_bohemicus,Chenoprosopus_milleri)100,Nigerpeton_ricqlesi)100)100)100,(Iberospondylus_schultzei,(((Acanthostomatops_vorax,Zatrachys_serratus)100,(Micromelerpeton_credneri,Limnogyrinus_elegans)100,Apateon_pedestris,Micropholis_stowi,Platyrhinops_lyelli,Doleserpeton_annectens,Gerobatrachus_hottoni,(Chinlestegophis_jenkinsi,(Eocaecilia_micropodia,(Epicrionops_bicolor,Ichthyophis_bannannicus)100)80)60,(((Triadobatrachus_massinoti,(Xenopus_tropicalis,Leptodactylus_mystacinus)100)100,(Cryptobranchus_allegheniensis,(Hynobius_japonicus,Ambystoma_opacum)72.222)100)60,(Karaurus_sharovi,Kokartus_honorarius)86.667)100,Amphibamus_grandiceps,(((Dissorophus_multicinctus,Broiliellus_texensis)73.333,Cacops_aspidephorus_morrisi)100,((Acheloma_cumminsi,Phonerpeton_pricei)60,Ecolsonia_cutlerensis)100)100,Lapillopsis_nana,(Onchiodon_labyrinthicus,Eryops_megacephalus)100,Sclerocephalus_haeuseri,Glanochthon_latirostris,Australerpeton_cosgriffi,(Rhineceps_nyasaensis,Uranocentrodon_senekalensis,Broomistega_putterilla)100,Lydekkerina_huxleyi,Chomatobatrachus_halei,Sangaia_lavina,(((Laidleria_gracilis,(Plagiosuchus_pustuliferus,Gerrothorax_pulcherrimus)100)80,Batrachosuchus_watsoni)80,Siderops_kehli)80,Rileymillerus_cosgriffi,((Peltostega_erici,Lyrocephaliscus_euri)100,(Callistomordax_kugleri,Metoposaurus_diagnosticus)100,(Trematosaurus_brauni,Trematolestes_hagdorni)53.333)100,Benthosuchus_sushkini,(Parotosuchus,((Paracyclotosaurus_davidi,Mastodonsaurus_giganteus)100,Cyclotosaurus_robustus)100)100,Edingerella_madagascariensis,(Archegosaurus_decheni,Platyoposaurus_stuckenbergi)100)100,Peltobatrachus_pustulatus)100)100)100,Capetus_palustris)100,(Dendrerpeton_acadianum,Balanerpeton_woodi)100)100,((Trimerorhachis_insignis,Neldasaurus_wrightae)100,(Isodectes_obtusus,Acroplous_vorax)100)100)100)0;
+end;

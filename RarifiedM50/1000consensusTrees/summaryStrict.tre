@@ -1,0 +1,21 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Jul 05 12:25:40 2019]
+[!
+>Consensus of 1000 trees
+>
+>Source of trees from which consensus(es) calculated...
+>
+>Processing TREES block from file:
+>D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\RarifiedScript\test1000trees\RarifiedMJ10
+>00.tre
+>  Keeping: trees in memory plus trees from file
+>  999 trees originally in memory
+>  1 tree read from file
+>  1 tree from file kept
+>  1000 trees now in memory
+>
+>  Time used = 0.00 sec (CPU time = 0.00 sec)
+]
+	tree Strict = [&U] (Proterogryinus_scheelei,Greererpeton_burkemorani,(((((Edops_craigi,(Adamanterpeton_ohioensis,((Cochleosaurus_bohemicus,Chenoprosopus_milleri),Nigerpeton_ricqlesi))),(Iberospondylus_schultzei,(((Acanthostomatops_vorax,Zatrachys_serratus),(Micromelerpeton_credneri,Limnogyrinus_elegans),Apateon_pedestris,Micropholis_stowi,Platyrhinops_lyelli,Doleserpeton_annectens,Gerobatrachus_hottoni,(Chinlestegophis_jenkinsi,(Eocaecilia_micropodia,(Epicrionops_bicolor,Ichthyophis_bannannicus))),(((Triadobatrachus_massinoti,(Xenopus_tropicalis,Leptodactylus_mystacinus)),(Cryptobranchus_allegheniensis,(Hynobius_japonicus,Ambystoma_opacum))),(Karaurus_sharovi,Kokartus_honorarius)),Amphibamus_grandiceps,(((Dissorophus_multicinctus,Broiliellus_texensis),Cacops_aspidephorus_morrisi),((Acheloma_cumminsi,Phonerpeton_pricei),Ecolsonia_cutlerensis)),Lapillopsis_nana,(Onchiodon_labyrinthicus,Eryops_megacephalus),Sclerocephalus_haeuseri,Glanochthon_latirostris,Australerpeton_cosgriffi,(Rhineceps_nyasaensis,Uranocentrodon_senekalensis,Broomistega_putterilla),Lydekkerina_huxleyi,Chomatobatrachus_halei,Sangaia_lavina,(((Laidleria_gracilis,(Plagiosuchus_pustuliferus,Gerrothorax_pulcherrimus)),Batrachosuchus_watsoni),Siderops_kehli),Rileymillerus_cosgriffi,((Peltostega_erici,Lyrocephaliscus_euri),(Callistomordax_kugleri,Metoposaurus_diagnosticus),Trematolestes_hagdorni,Trematosaurus_brauni),Benthosuchus_sushkini,(Parotosuchus,((Paracyclotosaurus_davidi,Mastodonsaurus_giganteus),Cyclotosaurus_robustus)),Edingerella_madagascariensis,(Archegosaurus_decheni,Platyoposaurus_stuckenbergi)),Peltobatrachus_pustulatus))),Capetus_palustris),(Dendrerpeton_acadianum,Balanerpeton_woodi)),((Trimerorhachis_insignis,Neldasaurus_wrightae),(Isodectes_obtusus,Acroplous_vorax))));
+end;

@@ -1,0 +1,70 @@
+#NEXUS
+
+begin paup;
+
+    log file=firstIsland.log start replace=yes;
+
+    set autoclose=yes;
+
+	gettrees file=FirstIsland.tre;
+
+    contree all / majrule=yes strict=no treefile=FirstIslandM50.tre;
+	
+	contree all / majrule=no strict=yes treefile=FirstIslandStrict.tre;
+ 
+    log stop;
+
+
+	log file=secondIsland.log start replace=yes;
+
+    set autoclose=yes;
+
+	gettrees file=SecondIsland.tre;
+
+    contree all / majrule=yes strict=no treefile=SecondIslandM50.tre;
+	
+	contree all / majrule=no strict=yes treefile=SecondIslandStrict.tre;
+ 
+    log stop;
+	
+	
+	log file=thirdIsland.log start replace=yes;
+
+    set autoclose=yes;
+
+	gettrees file=ThirdIsland.tre;
+
+    contree all / majrule=yes strict=no treefile=ThirdIslandM50.tre;
+	
+	contree all / majrule=no strict=yes treefile=ThirdIslandStrict.tre;
+ 
+    log stop;
+	
+	
+	log file=fourthIsland.log start replace=yes;
+
+    set autoclose=yes;
+
+	gettrees file=FourthIsland.tre;
+
+    contree all / majrule=yes strict=no treefile=FourthIslandM50.tre;
+	
+	contree all / majrule=no strict=yes treefile=FourthIslandStrict.tre;
+ 
+    log stop;
+
+	
+	log file=fifthIsland.log start replace=yes;
+
+    set autoclose=yes;
+
+	gettrees file=FifthIsland.tre;
+
+    contree all / majrule=yes strict=no treefile=FifthIslandM50.tre;
+	
+	contree all / majrule=no strict=yes treefile=FifthIslandStrict.tre;
+ 
+    log stop;
+
+
+END;

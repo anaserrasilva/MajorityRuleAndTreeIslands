@@ -1,0 +1,2014 @@
+#NEXUS
+
+begin paup;
+
+    log file=summaryRarefiedStrict.log start replace=yes;
+
+    set autoclose=yes;
+
+	gettrees file=RarifiedM50-1.tre mode=3;
+
+	gettrees file=RarifiedM50-2.tre mode=7;
+	
+	gettrees file=RarifiedM50-3.tre mode=7;
+	
+	gettrees file=RarifiedM50-4.tre mode=7;
+	
+	gettrees file=RarifiedM50-5.tre mode=7;
+	
+	gettrees file=RarifiedM50-6.tre mode=7;
+	
+	gettrees file=RarifiedM50-7.tre mode=7;
+	
+	gettrees file=RarifiedM50-8.tre mode=7;
+	
+	gettrees file=RarifiedM50-9.tre mode=7;
+	
+	gettrees file=RarifiedM50-10.tre mode=7;
+
+	gettrees file=RarifiedM50-11.tre mode=7;
+
+	gettrees file=RarifiedM50-12.tre mode=7;
+
+	gettrees file=RarifiedM50-13.tre mode=7;
+
+	gettrees file=RarifiedM50-14.tre mode=7;
+
+	gettrees file=RarifiedM50-15.tre mode=7;
+
+	gettrees file=RarifiedM50-16.tre mode=7;
+
+	gettrees file=RarifiedM50-17.tre mode=7;
+
+	gettrees file=RarifiedM50-18.tre mode=7;
+
+	gettrees file=RarifiedM50-19.tre mode=7;
+
+	gettrees file=RarifiedM50-20.tre mode=7;
+
+	gettrees file=RarifiedM50-21.tre mode=7;
+
+	gettrees file=RarifiedM50-22.tre mode=7;
+
+	gettrees file=RarifiedM50-23.tre mode=7;
+
+	gettrees file=RarifiedM50-24.tre mode=7;
+
+	gettrees file=RarifiedM50-25.tre mode=7;
+
+	gettrees file=RarifiedM50-26.tre mode=7;
+
+	gettrees file=RarifiedM50-27.tre mode=7;
+
+	gettrees file=RarifiedM50-28.tre mode=7;
+
+	gettrees file=RarifiedM50-29.tre mode=7;
+
+	gettrees file=RarifiedM50-30.tre mode=7;
+
+	gettrees file=RarifiedM50-31.tre mode=7;
+
+	gettrees file=RarifiedM50-32.tre mode=7;
+
+	gettrees file=RarifiedM50-33.tre mode=7;
+
+	gettrees file=RarifiedM50-34.tre mode=7;
+
+	gettrees file=RarifiedM50-35.tre mode=7;
+
+	gettrees file=RarifiedM50-36.tre mode=7;
+
+	gettrees file=RarifiedM50-37.tre mode=7;
+
+	gettrees file=RarifiedM50-38.tre mode=7;
+
+	gettrees file=RarifiedM50-39.tre mode=7;
+
+	gettrees file=RarifiedM50-40.tre mode=7;
+
+	gettrees file=RarifiedM50-41.tre mode=7;
+
+	gettrees file=RarifiedM50-42.tre mode=7;
+
+	gettrees file=RarifiedM50-43.tre mode=7;
+
+	gettrees file=RarifiedM50-44.tre mode=7;
+
+	gettrees file=RarifiedM50-45.tre mode=7;
+
+	gettrees file=RarifiedM50-46.tre mode=7;
+
+	gettrees file=RarifiedM50-47.tre mode=7;
+
+	gettrees file=RarifiedM50-48.tre mode=7;
+
+	gettrees file=RarifiedM50-49.tre mode=7;
+
+	gettrees file=RarifiedM50-50.tre mode=7;
+
+	gettrees file=RarifiedM50-51.tre mode=7;
+
+	gettrees file=RarifiedM50-52.tre mode=7;
+
+	gettrees file=RarifiedM50-53.tre mode=7;
+
+	gettrees file=RarifiedM50-54.tre mode=7;
+
+	gettrees file=RarifiedM50-55.tre mode=7;
+
+	gettrees file=RarifiedM50-56.tre mode=7;
+
+	gettrees file=RarifiedM50-57.tre mode=7;
+
+	gettrees file=RarifiedM50-58.tre mode=7;
+
+	gettrees file=RarifiedM50-59.tre mode=7;
+
+	gettrees file=RarifiedM50-60.tre mode=7;
+
+	gettrees file=RarifiedM50-61.tre mode=7;
+
+	gettrees file=RarifiedM50-62.tre mode=7;
+
+	gettrees file=RarifiedM50-63.tre mode=7;
+
+	gettrees file=RarifiedM50-64.tre mode=7;
+
+	gettrees file=RarifiedM50-65.tre mode=7;
+
+	gettrees file=RarifiedM50-66.tre mode=7;
+
+	gettrees file=RarifiedM50-67.tre mode=7;
+
+	gettrees file=RarifiedM50-68.tre mode=7;
+
+	gettrees file=RarifiedM50-69.tre mode=7;
+
+	gettrees file=RarifiedM50-70.tre mode=7;
+
+	gettrees file=RarifiedM50-71.tre mode=7;
+
+	gettrees file=RarifiedM50-72.tre mode=7;
+
+	gettrees file=RarifiedM50-73.tre mode=7;
+
+	gettrees file=RarifiedM50-74.tre mode=7;
+
+	gettrees file=RarifiedM50-75.tre mode=7;
+
+	gettrees file=RarifiedM50-76.tre mode=7;
+
+	gettrees file=RarifiedM50-77.tre mode=7;
+
+	gettrees file=RarifiedM50-78.tre mode=7;
+
+	gettrees file=RarifiedM50-79.tre mode=7;
+
+	gettrees file=RarifiedM50-80.tre mode=7;
+
+	gettrees file=RarifiedM50-81.tre mode=7;
+
+	gettrees file=RarifiedM50-82.tre mode=7;
+
+	gettrees file=RarifiedM50-83.tre mode=7;
+
+	gettrees file=RarifiedM50-84.tre mode=7;
+
+	gettrees file=RarifiedM50-85.tre mode=7;
+
+	gettrees file=RarifiedM50-86.tre mode=7;
+
+	gettrees file=RarifiedM50-87.tre mode=7;
+
+	gettrees file=RarifiedM50-88.tre mode=7;
+
+	gettrees file=RarifiedM50-89.tre mode=7;
+
+	gettrees file=RarifiedM50-90.tre mode=7;
+
+	gettrees file=RarifiedM50-91.tre mode=7;
+
+	gettrees file=RarifiedM50-92.tre mode=7;
+
+	gettrees file=RarifiedM50-93.tre mode=7;
+
+	gettrees file=RarifiedM50-94.tre mode=7;
+
+	gettrees file=RarifiedM50-95.tre mode=7;
+
+	gettrees file=RarifiedM50-96.tre mode=7;
+
+	gettrees file=RarifiedM50-97.tre mode=7;
+
+	gettrees file=RarifiedM50-98.tre mode=7;
+
+	gettrees file=RarifiedM50-99.tre mode=7;
+
+	gettrees file=RarifiedM50-100.tre mode=7;
+
+	gettrees file=RarifiedM50-101.tre mode=7;
+
+	gettrees file=RarifiedM50-102.tre mode=7;
+
+	gettrees file=RarifiedM50-103.tre mode=7;
+
+	gettrees file=RarifiedM50-104.tre mode=7;
+
+	gettrees file=RarifiedM50-105.tre mode=7;
+
+	gettrees file=RarifiedM50-106.tre mode=7;
+
+	gettrees file=RarifiedM50-107.tre mode=7;
+
+	gettrees file=RarifiedM50-108.tre mode=7;
+
+	gettrees file=RarifiedM50-109.tre mode=7;
+
+	gettrees file=RarifiedM50-110.tre mode=7;
+
+	gettrees file=RarifiedM50-111.tre mode=7;
+
+	gettrees file=RarifiedM50-112.tre mode=7;
+
+	gettrees file=RarifiedM50-113.tre mode=7;
+
+	gettrees file=RarifiedM50-114.tre mode=7;
+
+	gettrees file=RarifiedM50-115.tre mode=7;
+
+	gettrees file=RarifiedM50-116.tre mode=7;
+
+	gettrees file=RarifiedM50-117.tre mode=7;
+
+	gettrees file=RarifiedM50-118.tre mode=7;
+
+	gettrees file=RarifiedM50-119.tre mode=7;
+
+	gettrees file=RarifiedM50-120.tre mode=7;
+
+	gettrees file=RarifiedM50-121.tre mode=7;
+
+	gettrees file=RarifiedM50-122.tre mode=7;
+
+	gettrees file=RarifiedM50-123.tre mode=7;
+
+	gettrees file=RarifiedM50-124.tre mode=7;
+
+	gettrees file=RarifiedM50-125.tre mode=7;
+
+	gettrees file=RarifiedM50-126.tre mode=7;
+
+	gettrees file=RarifiedM50-127.tre mode=7;
+
+	gettrees file=RarifiedM50-128.tre mode=7;
+
+	gettrees file=RarifiedM50-129.tre mode=7;
+
+	gettrees file=RarifiedM50-130.tre mode=7;
+
+	gettrees file=RarifiedM50-131.tre mode=7;
+
+	gettrees file=RarifiedM50-132.tre mode=7;
+
+	gettrees file=RarifiedM50-133.tre mode=7;
+
+	gettrees file=RarifiedM50-134.tre mode=7;
+
+	gettrees file=RarifiedM50-135.tre mode=7;
+
+	gettrees file=RarifiedM50-136.tre mode=7;
+
+	gettrees file=RarifiedM50-137.tre mode=7;
+
+	gettrees file=RarifiedM50-138.tre mode=7;
+
+	gettrees file=RarifiedM50-139.tre mode=7;
+
+	gettrees file=RarifiedM50-140.tre mode=7;
+
+	gettrees file=RarifiedM50-141.tre mode=7;
+
+	gettrees file=RarifiedM50-142.tre mode=7;
+
+	gettrees file=RarifiedM50-143.tre mode=7;
+
+	gettrees file=RarifiedM50-144.tre mode=7;
+
+	gettrees file=RarifiedM50-145.tre mode=7;
+
+	gettrees file=RarifiedM50-146.tre mode=7;
+
+	gettrees file=RarifiedM50-147.tre mode=7;
+
+	gettrees file=RarifiedM50-148.tre mode=7;
+
+	gettrees file=RarifiedM50-149.tre mode=7;
+
+	gettrees file=RarifiedM50-150.tre mode=7;
+
+	gettrees file=RarifiedM50-151.tre mode=7;
+
+	gettrees file=RarifiedM50-152.tre mode=7;
+
+	gettrees file=RarifiedM50-153.tre mode=7;
+
+	gettrees file=RarifiedM50-154.tre mode=7;
+
+	gettrees file=RarifiedM50-155.tre mode=7;
+
+	gettrees file=RarifiedM50-156.tre mode=7;
+
+	gettrees file=RarifiedM50-157.tre mode=7;
+
+	gettrees file=RarifiedM50-158.tre mode=7;
+
+	gettrees file=RarifiedM50-159.tre mode=7;
+
+	gettrees file=RarifiedM50-160.tre mode=7;
+
+	gettrees file=RarifiedM50-161.tre mode=7;
+
+	gettrees file=RarifiedM50-162.tre mode=7;
+
+	gettrees file=RarifiedM50-163.tre mode=7;
+
+	gettrees file=RarifiedM50-164.tre mode=7;
+
+	gettrees file=RarifiedM50-165.tre mode=7;
+
+	gettrees file=RarifiedM50-166.tre mode=7;
+
+	gettrees file=RarifiedM50-167.tre mode=7;
+
+	gettrees file=RarifiedM50-168.tre mode=7;
+
+	gettrees file=RarifiedM50-169.tre mode=7;
+
+	gettrees file=RarifiedM50-170.tre mode=7;
+
+	gettrees file=RarifiedM50-171.tre mode=7;
+
+	gettrees file=RarifiedM50-172.tre mode=7;
+
+	gettrees file=RarifiedM50-173.tre mode=7;
+
+	gettrees file=RarifiedM50-174.tre mode=7;
+
+	gettrees file=RarifiedM50-175.tre mode=7;
+
+	gettrees file=RarifiedM50-176.tre mode=7;
+
+	gettrees file=RarifiedM50-177.tre mode=7;
+
+	gettrees file=RarifiedM50-178.tre mode=7;
+
+	gettrees file=RarifiedM50-179.tre mode=7;
+
+	gettrees file=RarifiedM50-180.tre mode=7;
+
+	gettrees file=RarifiedM50-181.tre mode=7;
+
+	gettrees file=RarifiedM50-182.tre mode=7;
+
+	gettrees file=RarifiedM50-183.tre mode=7;
+
+	gettrees file=RarifiedM50-184.tre mode=7;
+
+	gettrees file=RarifiedM50-185.tre mode=7;
+
+	gettrees file=RarifiedM50-186.tre mode=7;
+
+	gettrees file=RarifiedM50-187.tre mode=7;
+
+	gettrees file=RarifiedM50-188.tre mode=7;
+
+	gettrees file=RarifiedM50-189.tre mode=7;
+
+	gettrees file=RarifiedM50-190.tre mode=7;
+
+	gettrees file=RarifiedM50-191.tre mode=7;
+
+	gettrees file=RarifiedM50-192.tre mode=7;
+
+	gettrees file=RarifiedM50-193.tre mode=7;
+
+	gettrees file=RarifiedM50-194.tre mode=7;
+
+	gettrees file=RarifiedM50-195.tre mode=7;
+
+	gettrees file=RarifiedM50-196.tre mode=7;
+
+	gettrees file=RarifiedM50-197.tre mode=7;
+
+	gettrees file=RarifiedM50-198.tre mode=7;
+
+	gettrees file=RarifiedM50-199.tre mode=7;
+
+	gettrees file=RarifiedM50-200.tre mode=7;
+
+	gettrees file=RarifiedM50-201.tre mode=7;
+
+	gettrees file=RarifiedM50-202.tre mode=7;
+
+	gettrees file=RarifiedM50-203.tre mode=7;
+
+	gettrees file=RarifiedM50-204.tre mode=7;
+
+	gettrees file=RarifiedM50-205.tre mode=7;
+
+	gettrees file=RarifiedM50-206.tre mode=7;
+
+	gettrees file=RarifiedM50-207.tre mode=7;
+
+	gettrees file=RarifiedM50-208.tre mode=7;
+
+	gettrees file=RarifiedM50-209.tre mode=7;
+
+	gettrees file=RarifiedM50-210.tre mode=7;
+
+	gettrees file=RarifiedM50-211.tre mode=7;
+
+	gettrees file=RarifiedM50-212.tre mode=7;
+
+	gettrees file=RarifiedM50-213.tre mode=7;
+
+	gettrees file=RarifiedM50-214.tre mode=7;
+
+	gettrees file=RarifiedM50-215.tre mode=7;
+
+	gettrees file=RarifiedM50-216.tre mode=7;
+
+	gettrees file=RarifiedM50-217.tre mode=7;
+
+	gettrees file=RarifiedM50-218.tre mode=7;
+
+	gettrees file=RarifiedM50-219.tre mode=7;
+
+	gettrees file=RarifiedM50-220.tre mode=7;
+
+	gettrees file=RarifiedM50-221.tre mode=7;
+
+	gettrees file=RarifiedM50-222.tre mode=7;
+
+	gettrees file=RarifiedM50-223.tre mode=7;
+
+	gettrees file=RarifiedM50-224.tre mode=7;
+
+	gettrees file=RarifiedM50-225.tre mode=7;
+
+	gettrees file=RarifiedM50-226.tre mode=7;
+
+	gettrees file=RarifiedM50-227.tre mode=7;
+
+	gettrees file=RarifiedM50-228.tre mode=7;
+
+	gettrees file=RarifiedM50-229.tre mode=7;
+
+	gettrees file=RarifiedM50-230.tre mode=7;
+
+	gettrees file=RarifiedM50-231.tre mode=7;
+
+	gettrees file=RarifiedM50-232.tre mode=7;
+
+	gettrees file=RarifiedM50-233.tre mode=7;
+
+	gettrees file=RarifiedM50-234.tre mode=7;
+
+	gettrees file=RarifiedM50-235.tre mode=7;
+
+	gettrees file=RarifiedM50-236.tre mode=7;
+
+	gettrees file=RarifiedM50-237.tre mode=7;
+
+	gettrees file=RarifiedM50-238.tre mode=7;
+
+	gettrees file=RarifiedM50-239.tre mode=7;
+
+	gettrees file=RarifiedM50-240.tre mode=7;
+
+	gettrees file=RarifiedM50-241.tre mode=7;
+
+	gettrees file=RarifiedM50-242.tre mode=7;
+
+	gettrees file=RarifiedM50-243.tre mode=7;
+
+	gettrees file=RarifiedM50-244.tre mode=7;
+
+	gettrees file=RarifiedM50-245.tre mode=7;
+
+	gettrees file=RarifiedM50-246.tre mode=7;
+
+	gettrees file=RarifiedM50-247.tre mode=7;
+
+	gettrees file=RarifiedM50-248.tre mode=7;
+
+	gettrees file=RarifiedM50-249.tre mode=7;
+
+	gettrees file=RarifiedM50-250.tre mode=7;
+
+	gettrees file=RarifiedM50-251.tre mode=7;
+
+	gettrees file=RarifiedM50-252.tre mode=7;
+
+	gettrees file=RarifiedM50-253.tre mode=7;
+
+	gettrees file=RarifiedM50-254.tre mode=7;
+
+	gettrees file=RarifiedM50-255.tre mode=7;
+
+	gettrees file=RarifiedM50-256.tre mode=7;
+
+	gettrees file=RarifiedM50-257.tre mode=7;
+
+	gettrees file=RarifiedM50-258.tre mode=7;
+
+	gettrees file=RarifiedM50-259.tre mode=7;
+
+	gettrees file=RarifiedM50-260.tre mode=7;
+
+	gettrees file=RarifiedM50-261.tre mode=7;
+
+	gettrees file=RarifiedM50-262.tre mode=7;
+
+	gettrees file=RarifiedM50-263.tre mode=7;
+
+	gettrees file=RarifiedM50-264.tre mode=7;
+
+	gettrees file=RarifiedM50-265.tre mode=7;
+
+	gettrees file=RarifiedM50-266.tre mode=7;
+
+	gettrees file=RarifiedM50-267.tre mode=7;
+
+	gettrees file=RarifiedM50-268.tre mode=7;
+
+	gettrees file=RarifiedM50-269.tre mode=7;
+
+	gettrees file=RarifiedM50-270.tre mode=7;
+
+	gettrees file=RarifiedM50-271.tre mode=7;
+
+	gettrees file=RarifiedM50-272.tre mode=7;
+
+	gettrees file=RarifiedM50-273.tre mode=7;
+
+	gettrees file=RarifiedM50-274.tre mode=7;
+
+	gettrees file=RarifiedM50-275.tre mode=7;
+
+	gettrees file=RarifiedM50-276.tre mode=7;
+
+	gettrees file=RarifiedM50-277.tre mode=7;
+
+	gettrees file=RarifiedM50-278.tre mode=7;
+
+	gettrees file=RarifiedM50-279.tre mode=7;
+
+	gettrees file=RarifiedM50-280.tre mode=7;
+
+	gettrees file=RarifiedM50-281.tre mode=7;
+
+	gettrees file=RarifiedM50-282.tre mode=7;
+
+	gettrees file=RarifiedM50-283.tre mode=7;
+
+	gettrees file=RarifiedM50-284.tre mode=7;
+
+	gettrees file=RarifiedM50-285.tre mode=7;
+
+	gettrees file=RarifiedM50-286.tre mode=7;
+
+	gettrees file=RarifiedM50-287.tre mode=7;
+
+	gettrees file=RarifiedM50-288.tre mode=7;
+
+	gettrees file=RarifiedM50-289.tre mode=7;
+
+	gettrees file=RarifiedM50-290.tre mode=7;
+
+	gettrees file=RarifiedM50-291.tre mode=7;
+
+	gettrees file=RarifiedM50-292.tre mode=7;
+
+	gettrees file=RarifiedM50-293.tre mode=7;
+
+	gettrees file=RarifiedM50-294.tre mode=7;
+
+	gettrees file=RarifiedM50-295.tre mode=7;
+
+	gettrees file=RarifiedM50-296.tre mode=7;
+
+	gettrees file=RarifiedM50-297.tre mode=7;
+
+	gettrees file=RarifiedM50-298.tre mode=7;
+
+	gettrees file=RarifiedM50-299.tre mode=7;
+
+	gettrees file=RarifiedM50-300.tre mode=7;
+
+	gettrees file=RarifiedM50-301.tre mode=7;
+
+	gettrees file=RarifiedM50-302.tre mode=7;
+
+	gettrees file=RarifiedM50-303.tre mode=7;
+
+	gettrees file=RarifiedM50-304.tre mode=7;
+
+	gettrees file=RarifiedM50-305.tre mode=7;
+
+	gettrees file=RarifiedM50-306.tre mode=7;
+
+	gettrees file=RarifiedM50-307.tre mode=7;
+
+	gettrees file=RarifiedM50-308.tre mode=7;
+
+	gettrees file=RarifiedM50-309.tre mode=7;
+
+	gettrees file=RarifiedM50-310.tre mode=7;
+
+	gettrees file=RarifiedM50-311.tre mode=7;
+
+	gettrees file=RarifiedM50-312.tre mode=7;
+
+	gettrees file=RarifiedM50-313.tre mode=7;
+
+	gettrees file=RarifiedM50-314.tre mode=7;
+
+	gettrees file=RarifiedM50-315.tre mode=7;
+
+	gettrees file=RarifiedM50-316.tre mode=7;
+
+	gettrees file=RarifiedM50-317.tre mode=7;
+
+	gettrees file=RarifiedM50-318.tre mode=7;
+
+	gettrees file=RarifiedM50-319.tre mode=7;
+
+	gettrees file=RarifiedM50-320.tre mode=7;
+
+	gettrees file=RarifiedM50-321.tre mode=7;
+
+	gettrees file=RarifiedM50-322.tre mode=7;
+
+	gettrees file=RarifiedM50-323.tre mode=7;
+
+	gettrees file=RarifiedM50-324.tre mode=7;
+
+	gettrees file=RarifiedM50-325.tre mode=7;
+
+	gettrees file=RarifiedM50-326.tre mode=7;
+
+	gettrees file=RarifiedM50-327.tre mode=7;
+
+	gettrees file=RarifiedM50-328.tre mode=7;
+
+	gettrees file=RarifiedM50-329.tre mode=7;
+
+	gettrees file=RarifiedM50-330.tre mode=7;
+
+	gettrees file=RarifiedM50-331.tre mode=7;
+
+	gettrees file=RarifiedM50-332.tre mode=7;
+
+	gettrees file=RarifiedM50-333.tre mode=7;
+
+	gettrees file=RarifiedM50-334.tre mode=7;
+
+	gettrees file=RarifiedM50-335.tre mode=7;
+
+	gettrees file=RarifiedM50-336.tre mode=7;
+
+	gettrees file=RarifiedM50-337.tre mode=7;
+
+	gettrees file=RarifiedM50-338.tre mode=7;
+
+	gettrees file=RarifiedM50-339.tre mode=7;
+
+	gettrees file=RarifiedM50-340.tre mode=7;
+
+	gettrees file=RarifiedM50-341.tre mode=7;
+
+	gettrees file=RarifiedM50-342.tre mode=7;
+
+	gettrees file=RarifiedM50-343.tre mode=7;
+
+	gettrees file=RarifiedM50-344.tre mode=7;
+
+	gettrees file=RarifiedM50-345.tre mode=7;
+
+	gettrees file=RarifiedM50-346.tre mode=7;
+
+	gettrees file=RarifiedM50-347.tre mode=7;
+
+	gettrees file=RarifiedM50-348.tre mode=7;
+
+	gettrees file=RarifiedM50-349.tre mode=7;
+
+	gettrees file=RarifiedM50-350.tre mode=7;
+
+	gettrees file=RarifiedM50-351.tre mode=7;
+
+	gettrees file=RarifiedM50-352.tre mode=7;
+
+	gettrees file=RarifiedM50-353.tre mode=7;
+
+	gettrees file=RarifiedM50-354.tre mode=7;
+
+	gettrees file=RarifiedM50-355.tre mode=7;
+
+	gettrees file=RarifiedM50-356.tre mode=7;
+
+	gettrees file=RarifiedM50-357.tre mode=7;
+
+	gettrees file=RarifiedM50-358.tre mode=7;
+
+	gettrees file=RarifiedM50-359.tre mode=7;
+
+	gettrees file=RarifiedM50-360.tre mode=7;
+
+	gettrees file=RarifiedM50-361.tre mode=7;
+
+	gettrees file=RarifiedM50-362.tre mode=7;
+
+	gettrees file=RarifiedM50-363.tre mode=7;
+
+	gettrees file=RarifiedM50-364.tre mode=7;
+
+	gettrees file=RarifiedM50-365.tre mode=7;
+
+	gettrees file=RarifiedM50-366.tre mode=7;
+
+	gettrees file=RarifiedM50-367.tre mode=7;
+
+	gettrees file=RarifiedM50-368.tre mode=7;
+
+	gettrees file=RarifiedM50-369.tre mode=7;
+
+	gettrees file=RarifiedM50-370.tre mode=7;
+
+	gettrees file=RarifiedM50-371.tre mode=7;
+
+	gettrees file=RarifiedM50-372.tre mode=7;
+
+	gettrees file=RarifiedM50-373.tre mode=7;
+
+	gettrees file=RarifiedM50-374.tre mode=7;
+
+	gettrees file=RarifiedM50-375.tre mode=7;
+
+	gettrees file=RarifiedM50-376.tre mode=7;
+
+	gettrees file=RarifiedM50-377.tre mode=7;
+
+	gettrees file=RarifiedM50-378.tre mode=7;
+
+	gettrees file=RarifiedM50-379.tre mode=7;
+
+	gettrees file=RarifiedM50-380.tre mode=7;
+
+	gettrees file=RarifiedM50-381.tre mode=7;
+
+	gettrees file=RarifiedM50-382.tre mode=7;
+
+	gettrees file=RarifiedM50-383.tre mode=7;
+
+	gettrees file=RarifiedM50-384.tre mode=7;
+
+	gettrees file=RarifiedM50-385.tre mode=7;
+
+	gettrees file=RarifiedM50-386.tre mode=7;
+
+	gettrees file=RarifiedM50-387.tre mode=7;
+
+	gettrees file=RarifiedM50-388.tre mode=7;
+
+	gettrees file=RarifiedM50-389.tre mode=7;
+
+	gettrees file=RarifiedM50-390.tre mode=7;
+
+	gettrees file=RarifiedM50-391.tre mode=7;
+
+	gettrees file=RarifiedM50-392.tre mode=7;
+
+	gettrees file=RarifiedM50-393.tre mode=7;
+
+	gettrees file=RarifiedM50-394.tre mode=7;
+
+	gettrees file=RarifiedM50-395.tre mode=7;
+
+	gettrees file=RarifiedM50-396.tre mode=7;
+
+	gettrees file=RarifiedM50-397.tre mode=7;
+
+	gettrees file=RarifiedM50-398.tre mode=7;
+
+	gettrees file=RarifiedM50-399.tre mode=7;
+
+	gettrees file=RarifiedM50-400.tre mode=7;
+
+	gettrees file=RarifiedM50-401.tre mode=7;
+
+	gettrees file=RarifiedM50-402.tre mode=7;
+
+	gettrees file=RarifiedM50-403.tre mode=7;
+
+	gettrees file=RarifiedM50-404.tre mode=7;
+
+	gettrees file=RarifiedM50-405.tre mode=7;
+
+	gettrees file=RarifiedM50-406.tre mode=7;
+
+	gettrees file=RarifiedM50-407.tre mode=7;
+
+	gettrees file=RarifiedM50-408.tre mode=7;
+
+	gettrees file=RarifiedM50-409.tre mode=7;
+
+	gettrees file=RarifiedM50-410.tre mode=7;
+
+	gettrees file=RarifiedM50-411.tre mode=7;
+
+	gettrees file=RarifiedM50-412.tre mode=7;
+
+	gettrees file=RarifiedM50-413.tre mode=7;
+
+	gettrees file=RarifiedM50-414.tre mode=7;
+
+	gettrees file=RarifiedM50-415.tre mode=7;
+
+	gettrees file=RarifiedM50-416.tre mode=7;
+
+	gettrees file=RarifiedM50-417.tre mode=7;
+
+	gettrees file=RarifiedM50-418.tre mode=7;
+
+	gettrees file=RarifiedM50-419.tre mode=7;
+
+	gettrees file=RarifiedM50-420.tre mode=7;
+
+	gettrees file=RarifiedM50-421.tre mode=7;
+
+	gettrees file=RarifiedM50-422.tre mode=7;
+
+	gettrees file=RarifiedM50-423.tre mode=7;
+
+	gettrees file=RarifiedM50-424.tre mode=7;
+
+	gettrees file=RarifiedM50-425.tre mode=7;
+
+	gettrees file=RarifiedM50-426.tre mode=7;
+
+	gettrees file=RarifiedM50-427.tre mode=7;
+
+	gettrees file=RarifiedM50-428.tre mode=7;
+
+	gettrees file=RarifiedM50-429.tre mode=7;
+
+	gettrees file=RarifiedM50-430.tre mode=7;
+
+	gettrees file=RarifiedM50-431.tre mode=7;
+
+	gettrees file=RarifiedM50-432.tre mode=7;
+
+	gettrees file=RarifiedM50-433.tre mode=7;
+
+	gettrees file=RarifiedM50-434.tre mode=7;
+
+	gettrees file=RarifiedM50-435.tre mode=7;
+
+	gettrees file=RarifiedM50-436.tre mode=7;
+
+	gettrees file=RarifiedM50-437.tre mode=7;
+
+	gettrees file=RarifiedM50-438.tre mode=7;
+
+	gettrees file=RarifiedM50-439.tre mode=7;
+
+	gettrees file=RarifiedM50-440.tre mode=7;
+
+	gettrees file=RarifiedM50-441.tre mode=7;
+
+	gettrees file=RarifiedM50-442.tre mode=7;
+
+	gettrees file=RarifiedM50-443.tre mode=7;
+
+	gettrees file=RarifiedM50-444.tre mode=7;
+
+	gettrees file=RarifiedM50-445.tre mode=7;
+
+	gettrees file=RarifiedM50-446.tre mode=7;
+
+	gettrees file=RarifiedM50-447.tre mode=7;
+
+	gettrees file=RarifiedM50-448.tre mode=7;
+
+	gettrees file=RarifiedM50-449.tre mode=7;
+
+	gettrees file=RarifiedM50-450.tre mode=7;
+
+	gettrees file=RarifiedM50-451.tre mode=7;
+
+	gettrees file=RarifiedM50-452.tre mode=7;
+
+	gettrees file=RarifiedM50-453.tre mode=7;
+
+	gettrees file=RarifiedM50-454.tre mode=7;
+
+	gettrees file=RarifiedM50-455.tre mode=7;
+
+	gettrees file=RarifiedM50-456.tre mode=7;
+
+	gettrees file=RarifiedM50-457.tre mode=7;
+
+	gettrees file=RarifiedM50-458.tre mode=7;
+
+	gettrees file=RarifiedM50-459.tre mode=7;
+
+	gettrees file=RarifiedM50-460.tre mode=7;
+
+	gettrees file=RarifiedM50-461.tre mode=7;
+
+	gettrees file=RarifiedM50-462.tre mode=7;
+
+	gettrees file=RarifiedM50-463.tre mode=7;
+
+	gettrees file=RarifiedM50-464.tre mode=7;
+
+	gettrees file=RarifiedM50-465.tre mode=7;
+
+	gettrees file=RarifiedM50-466.tre mode=7;
+
+	gettrees file=RarifiedM50-467.tre mode=7;
+
+	gettrees file=RarifiedM50-468.tre mode=7;
+
+	gettrees file=RarifiedM50-469.tre mode=7;
+
+	gettrees file=RarifiedM50-470.tre mode=7;
+
+	gettrees file=RarifiedM50-471.tre mode=7;
+
+	gettrees file=RarifiedM50-472.tre mode=7;
+
+	gettrees file=RarifiedM50-473.tre mode=7;
+
+	gettrees file=RarifiedM50-474.tre mode=7;
+
+	gettrees file=RarifiedM50-475.tre mode=7;
+
+	gettrees file=RarifiedM50-476.tre mode=7;
+
+	gettrees file=RarifiedM50-477.tre mode=7;
+
+	gettrees file=RarifiedM50-478.tre mode=7;
+
+	gettrees file=RarifiedM50-479.tre mode=7;
+
+	gettrees file=RarifiedM50-480.tre mode=7;
+
+	gettrees file=RarifiedM50-481.tre mode=7;
+
+	gettrees file=RarifiedM50-482.tre mode=7;
+
+	gettrees file=RarifiedM50-483.tre mode=7;
+
+	gettrees file=RarifiedM50-484.tre mode=7;
+
+	gettrees file=RarifiedM50-485.tre mode=7;
+
+	gettrees file=RarifiedM50-486.tre mode=7;
+
+	gettrees file=RarifiedM50-487.tre mode=7;
+
+	gettrees file=RarifiedM50-488.tre mode=7;
+
+	gettrees file=RarifiedM50-489.tre mode=7;
+
+	gettrees file=RarifiedM50-490.tre mode=7;
+
+	gettrees file=RarifiedM50-491.tre mode=7;
+
+	gettrees file=RarifiedM50-492.tre mode=7;
+
+	gettrees file=RarifiedM50-493.tre mode=7;
+
+	gettrees file=RarifiedM50-494.tre mode=7;
+
+	gettrees file=RarifiedM50-495.tre mode=7;
+
+	gettrees file=RarifiedM50-496.tre mode=7;
+
+	gettrees file=RarifiedM50-497.tre mode=7;
+
+	gettrees file=RarifiedM50-498.tre mode=7;
+
+	gettrees file=RarifiedM50-499.tre mode=7;
+
+	gettrees file=RarifiedM50-500.tre mode=7;
+
+	gettrees file=RarifiedM50-501.tre mode=7;
+
+	gettrees file=RarifiedM50-502.tre mode=7;
+
+	gettrees file=RarifiedM50-503.tre mode=7;
+
+	gettrees file=RarifiedM50-504.tre mode=7;
+
+	gettrees file=RarifiedM50-505.tre mode=7;
+
+	gettrees file=RarifiedM50-506.tre mode=7;
+
+	gettrees file=RarifiedM50-507.tre mode=7;
+
+	gettrees file=RarifiedM50-508.tre mode=7;
+
+	gettrees file=RarifiedM50-509.tre mode=7;
+
+	gettrees file=RarifiedM50-510.tre mode=7;
+
+	gettrees file=RarifiedM50-511.tre mode=7;
+
+	gettrees file=RarifiedM50-512.tre mode=7;
+
+	gettrees file=RarifiedM50-513.tre mode=7;
+
+	gettrees file=RarifiedM50-514.tre mode=7;
+
+	gettrees file=RarifiedM50-515.tre mode=7;
+
+	gettrees file=RarifiedM50-516.tre mode=7;
+
+	gettrees file=RarifiedM50-517.tre mode=7;
+
+	gettrees file=RarifiedM50-518.tre mode=7;
+
+	gettrees file=RarifiedM50-519.tre mode=7;
+
+	gettrees file=RarifiedM50-520.tre mode=7;
+
+	gettrees file=RarifiedM50-521.tre mode=7;
+
+	gettrees file=RarifiedM50-522.tre mode=7;
+
+	gettrees file=RarifiedM50-523.tre mode=7;
+
+	gettrees file=RarifiedM50-524.tre mode=7;
+
+	gettrees file=RarifiedM50-525.tre mode=7;
+
+	gettrees file=RarifiedM50-526.tre mode=7;
+
+	gettrees file=RarifiedM50-527.tre mode=7;
+
+	gettrees file=RarifiedM50-528.tre mode=7;
+
+	gettrees file=RarifiedM50-529.tre mode=7;
+
+	gettrees file=RarifiedM50-530.tre mode=7;
+
+	gettrees file=RarifiedM50-531.tre mode=7;
+
+	gettrees file=RarifiedM50-532.tre mode=7;
+
+	gettrees file=RarifiedM50-533.tre mode=7;
+
+	gettrees file=RarifiedM50-534.tre mode=7;
+
+	gettrees file=RarifiedM50-535.tre mode=7;
+
+	gettrees file=RarifiedM50-536.tre mode=7;
+
+	gettrees file=RarifiedM50-537.tre mode=7;
+
+	gettrees file=RarifiedM50-538.tre mode=7;
+
+	gettrees file=RarifiedM50-539.tre mode=7;
+
+	gettrees file=RarifiedM50-540.tre mode=7;
+
+	gettrees file=RarifiedM50-541.tre mode=7;
+
+	gettrees file=RarifiedM50-542.tre mode=7;
+
+	gettrees file=RarifiedM50-543.tre mode=7;
+
+	gettrees file=RarifiedM50-544.tre mode=7;
+
+	gettrees file=RarifiedM50-545.tre mode=7;
+
+	gettrees file=RarifiedM50-546.tre mode=7;
+
+	gettrees file=RarifiedM50-547.tre mode=7;
+
+	gettrees file=RarifiedM50-548.tre mode=7;
+
+	gettrees file=RarifiedM50-549.tre mode=7;
+
+	gettrees file=RarifiedM50-550.tre mode=7;
+
+	gettrees file=RarifiedM50-551.tre mode=7;
+
+	gettrees file=RarifiedM50-552.tre mode=7;
+
+	gettrees file=RarifiedM50-553.tre mode=7;
+
+	gettrees file=RarifiedM50-554.tre mode=7;
+
+	gettrees file=RarifiedM50-555.tre mode=7;
+
+	gettrees file=RarifiedM50-556.tre mode=7;
+
+	gettrees file=RarifiedM50-557.tre mode=7;
+
+	gettrees file=RarifiedM50-558.tre mode=7;
+
+	gettrees file=RarifiedM50-559.tre mode=7;
+
+	gettrees file=RarifiedM50-560.tre mode=7;
+
+	gettrees file=RarifiedM50-561.tre mode=7;
+
+	gettrees file=RarifiedM50-562.tre mode=7;
+
+	gettrees file=RarifiedM50-563.tre mode=7;
+
+	gettrees file=RarifiedM50-564.tre mode=7;
+
+	gettrees file=RarifiedM50-565.tre mode=7;
+
+	gettrees file=RarifiedM50-566.tre mode=7;
+
+	gettrees file=RarifiedM50-567.tre mode=7;
+
+	gettrees file=RarifiedM50-568.tre mode=7;
+
+	gettrees file=RarifiedM50-569.tre mode=7;
+
+	gettrees file=RarifiedM50-570.tre mode=7;
+
+	gettrees file=RarifiedM50-571.tre mode=7;
+
+	gettrees file=RarifiedM50-572.tre mode=7;
+
+	gettrees file=RarifiedM50-573.tre mode=7;
+
+	gettrees file=RarifiedM50-574.tre mode=7;
+
+	gettrees file=RarifiedM50-575.tre mode=7;
+
+	gettrees file=RarifiedM50-576.tre mode=7;
+
+	gettrees file=RarifiedM50-577.tre mode=7;
+
+	gettrees file=RarifiedM50-578.tre mode=7;
+
+	gettrees file=RarifiedM50-579.tre mode=7;
+
+	gettrees file=RarifiedM50-580.tre mode=7;
+
+	gettrees file=RarifiedM50-581.tre mode=7;
+
+	gettrees file=RarifiedM50-582.tre mode=7;
+
+	gettrees file=RarifiedM50-583.tre mode=7;
+
+	gettrees file=RarifiedM50-584.tre mode=7;
+
+	gettrees file=RarifiedM50-585.tre mode=7;
+
+	gettrees file=RarifiedM50-586.tre mode=7;
+
+	gettrees file=RarifiedM50-587.tre mode=7;
+
+	gettrees file=RarifiedM50-588.tre mode=7;
+
+	gettrees file=RarifiedM50-589.tre mode=7;
+
+	gettrees file=RarifiedM50-590.tre mode=7;
+
+	gettrees file=RarifiedM50-591.tre mode=7;
+
+	gettrees file=RarifiedM50-592.tre mode=7;
+
+	gettrees file=RarifiedM50-593.tre mode=7;
+
+	gettrees file=RarifiedM50-594.tre mode=7;
+
+	gettrees file=RarifiedM50-595.tre mode=7;
+
+	gettrees file=RarifiedM50-596.tre mode=7;
+
+	gettrees file=RarifiedM50-597.tre mode=7;
+
+	gettrees file=RarifiedM50-598.tre mode=7;
+
+	gettrees file=RarifiedM50-599.tre mode=7;
+
+	gettrees file=RarifiedM50-600.tre mode=7;
+
+	gettrees file=RarifiedM50-601.tre mode=7;
+
+	gettrees file=RarifiedM50-602.tre mode=7;
+
+	gettrees file=RarifiedM50-603.tre mode=7;
+
+	gettrees file=RarifiedM50-604.tre mode=7;
+
+	gettrees file=RarifiedM50-605.tre mode=7;
+
+	gettrees file=RarifiedM50-606.tre mode=7;
+
+	gettrees file=RarifiedM50-607.tre mode=7;
+
+	gettrees file=RarifiedM50-608.tre mode=7;
+
+	gettrees file=RarifiedM50-609.tre mode=7;
+
+	gettrees file=RarifiedM50-610.tre mode=7;
+
+	gettrees file=RarifiedM50-611.tre mode=7;
+
+	gettrees file=RarifiedM50-612.tre mode=7;
+
+	gettrees file=RarifiedM50-613.tre mode=7;
+
+	gettrees file=RarifiedM50-614.tre mode=7;
+
+	gettrees file=RarifiedM50-615.tre mode=7;
+
+	gettrees file=RarifiedM50-616.tre mode=7;
+
+	gettrees file=RarifiedM50-617.tre mode=7;
+
+	gettrees file=RarifiedM50-618.tre mode=7;
+
+	gettrees file=RarifiedM50-619.tre mode=7;
+
+	gettrees file=RarifiedM50-620.tre mode=7;
+
+	gettrees file=RarifiedM50-621.tre mode=7;
+
+	gettrees file=RarifiedM50-622.tre mode=7;
+
+	gettrees file=RarifiedM50-623.tre mode=7;
+
+	gettrees file=RarifiedM50-624.tre mode=7;
+
+	gettrees file=RarifiedM50-625.tre mode=7;
+
+	gettrees file=RarifiedM50-626.tre mode=7;
+
+	gettrees file=RarifiedM50-627.tre mode=7;
+
+	gettrees file=RarifiedM50-628.tre mode=7;
+
+	gettrees file=RarifiedM50-629.tre mode=7;
+
+	gettrees file=RarifiedM50-630.tre mode=7;
+
+	gettrees file=RarifiedM50-631.tre mode=7;
+
+	gettrees file=RarifiedM50-632.tre mode=7;
+
+	gettrees file=RarifiedM50-633.tre mode=7;
+
+	gettrees file=RarifiedM50-634.tre mode=7;
+
+	gettrees file=RarifiedM50-635.tre mode=7;
+
+	gettrees file=RarifiedM50-636.tre mode=7;
+
+	gettrees file=RarifiedM50-637.tre mode=7;
+
+	gettrees file=RarifiedM50-638.tre mode=7;
+
+	gettrees file=RarifiedM50-639.tre mode=7;
+
+	gettrees file=RarifiedM50-640.tre mode=7;
+
+	gettrees file=RarifiedM50-641.tre mode=7;
+
+	gettrees file=RarifiedM50-642.tre mode=7;
+
+	gettrees file=RarifiedM50-643.tre mode=7;
+
+	gettrees file=RarifiedM50-644.tre mode=7;
+
+	gettrees file=RarifiedM50-645.tre mode=7;
+
+	gettrees file=RarifiedM50-646.tre mode=7;
+
+	gettrees file=RarifiedM50-647.tre mode=7;
+
+	gettrees file=RarifiedM50-648.tre mode=7;
+
+	gettrees file=RarifiedM50-649.tre mode=7;
+
+	gettrees file=RarifiedM50-650.tre mode=7;
+
+	gettrees file=RarifiedM50-651.tre mode=7;
+
+	gettrees file=RarifiedM50-652.tre mode=7;
+
+	gettrees file=RarifiedM50-653.tre mode=7;
+
+	gettrees file=RarifiedM50-654.tre mode=7;
+
+	gettrees file=RarifiedM50-655.tre mode=7;
+
+	gettrees file=RarifiedM50-656.tre mode=7;
+
+	gettrees file=RarifiedM50-657.tre mode=7;
+
+	gettrees file=RarifiedM50-658.tre mode=7;
+
+	gettrees file=RarifiedM50-659.tre mode=7;
+
+	gettrees file=RarifiedM50-660.tre mode=7;
+
+	gettrees file=RarifiedM50-661.tre mode=7;
+
+	gettrees file=RarifiedM50-662.tre mode=7;
+
+	gettrees file=RarifiedM50-663.tre mode=7;
+
+	gettrees file=RarifiedM50-664.tre mode=7;
+
+	gettrees file=RarifiedM50-665.tre mode=7;
+
+	gettrees file=RarifiedM50-666.tre mode=7;
+
+	gettrees file=RarifiedM50-667.tre mode=7;
+
+	gettrees file=RarifiedM50-668.tre mode=7;
+
+	gettrees file=RarifiedM50-669.tre mode=7;
+
+	gettrees file=RarifiedM50-670.tre mode=7;
+
+	gettrees file=RarifiedM50-671.tre mode=7;
+
+	gettrees file=RarifiedM50-672.tre mode=7;
+
+	gettrees file=RarifiedM50-673.tre mode=7;
+
+	gettrees file=RarifiedM50-674.tre mode=7;
+
+	gettrees file=RarifiedM50-675.tre mode=7;
+
+	gettrees file=RarifiedM50-676.tre mode=7;
+
+	gettrees file=RarifiedM50-677.tre mode=7;
+
+	gettrees file=RarifiedM50-678.tre mode=7;
+
+	gettrees file=RarifiedM50-679.tre mode=7;
+
+	gettrees file=RarifiedM50-680.tre mode=7;
+
+	gettrees file=RarifiedM50-681.tre mode=7;
+
+	gettrees file=RarifiedM50-682.tre mode=7;
+
+	gettrees file=RarifiedM50-683.tre mode=7;
+
+	gettrees file=RarifiedM50-684.tre mode=7;
+
+	gettrees file=RarifiedM50-685.tre mode=7;
+
+	gettrees file=RarifiedM50-686.tre mode=7;
+
+	gettrees file=RarifiedM50-687.tre mode=7;
+
+	gettrees file=RarifiedM50-688.tre mode=7;
+
+	gettrees file=RarifiedM50-689.tre mode=7;
+
+	gettrees file=RarifiedM50-690.tre mode=7;
+
+	gettrees file=RarifiedM50-691.tre mode=7;
+
+	gettrees file=RarifiedM50-692.tre mode=7;
+
+	gettrees file=RarifiedM50-693.tre mode=7;
+
+	gettrees file=RarifiedM50-694.tre mode=7;
+
+	gettrees file=RarifiedM50-695.tre mode=7;
+
+	gettrees file=RarifiedM50-696.tre mode=7;
+
+	gettrees file=RarifiedM50-697.tre mode=7;
+
+	gettrees file=RarifiedM50-698.tre mode=7;
+
+	gettrees file=RarifiedM50-699.tre mode=7;
+
+	gettrees file=RarifiedM50-700.tre mode=7;
+
+	gettrees file=RarifiedM50-701.tre mode=7;
+
+	gettrees file=RarifiedM50-702.tre mode=7;
+
+	gettrees file=RarifiedM50-703.tre mode=7;
+
+	gettrees file=RarifiedM50-704.tre mode=7;
+
+	gettrees file=RarifiedM50-705.tre mode=7;
+
+	gettrees file=RarifiedM50-706.tre mode=7;
+
+	gettrees file=RarifiedM50-707.tre mode=7;
+
+	gettrees file=RarifiedM50-708.tre mode=7;
+
+	gettrees file=RarifiedM50-709.tre mode=7;
+
+	gettrees file=RarifiedM50-710.tre mode=7;
+
+	gettrees file=RarifiedM50-711.tre mode=7;
+
+	gettrees file=RarifiedM50-712.tre mode=7;
+
+	gettrees file=RarifiedM50-713.tre mode=7;
+
+	gettrees file=RarifiedM50-714.tre mode=7;
+
+	gettrees file=RarifiedM50-715.tre mode=7;
+
+	gettrees file=RarifiedM50-716.tre mode=7;
+
+	gettrees file=RarifiedM50-717.tre mode=7;
+
+	gettrees file=RarifiedM50-718.tre mode=7;
+
+	gettrees file=RarifiedM50-719.tre mode=7;
+
+	gettrees file=RarifiedM50-720.tre mode=7;
+
+	gettrees file=RarifiedM50-721.tre mode=7;
+
+	gettrees file=RarifiedM50-722.tre mode=7;
+
+	gettrees file=RarifiedM50-723.tre mode=7;
+
+	gettrees file=RarifiedM50-724.tre mode=7;
+
+	gettrees file=RarifiedM50-725.tre mode=7;
+
+	gettrees file=RarifiedM50-726.tre mode=7;
+
+	gettrees file=RarifiedM50-727.tre mode=7;
+
+	gettrees file=RarifiedM50-728.tre mode=7;
+
+	gettrees file=RarifiedM50-729.tre mode=7;
+
+	gettrees file=RarifiedM50-730.tre mode=7;
+
+	gettrees file=RarifiedM50-731.tre mode=7;
+
+	gettrees file=RarifiedM50-732.tre mode=7;
+
+	gettrees file=RarifiedM50-733.tre mode=7;
+
+	gettrees file=RarifiedM50-734.tre mode=7;
+
+	gettrees file=RarifiedM50-735.tre mode=7;
+
+	gettrees file=RarifiedM50-736.tre mode=7;
+
+	gettrees file=RarifiedM50-737.tre mode=7;
+
+	gettrees file=RarifiedM50-738.tre mode=7;
+
+	gettrees file=RarifiedM50-739.tre mode=7;
+
+	gettrees file=RarifiedM50-740.tre mode=7;
+
+	gettrees file=RarifiedM50-741.tre mode=7;
+
+	gettrees file=RarifiedM50-742.tre mode=7;
+
+	gettrees file=RarifiedM50-743.tre mode=7;
+
+	gettrees file=RarifiedM50-744.tre mode=7;
+
+	gettrees file=RarifiedM50-745.tre mode=7;
+
+	gettrees file=RarifiedM50-746.tre mode=7;
+
+	gettrees file=RarifiedM50-747.tre mode=7;
+
+	gettrees file=RarifiedM50-748.tre mode=7;
+
+	gettrees file=RarifiedM50-749.tre mode=7;
+
+	gettrees file=RarifiedM50-750.tre mode=7;
+
+	gettrees file=RarifiedM50-751.tre mode=7;
+
+	gettrees file=RarifiedM50-752.tre mode=7;
+
+	gettrees file=RarifiedM50-753.tre mode=7;
+
+	gettrees file=RarifiedM50-754.tre mode=7;
+
+	gettrees file=RarifiedM50-755.tre mode=7;
+
+	gettrees file=RarifiedM50-756.tre mode=7;
+
+	gettrees file=RarifiedM50-757.tre mode=7;
+
+	gettrees file=RarifiedM50-758.tre mode=7;
+
+	gettrees file=RarifiedM50-759.tre mode=7;
+
+	gettrees file=RarifiedM50-760.tre mode=7;
+
+	gettrees file=RarifiedM50-761.tre mode=7;
+
+	gettrees file=RarifiedM50-762.tre mode=7;
+
+	gettrees file=RarifiedM50-763.tre mode=7;
+
+	gettrees file=RarifiedM50-764.tre mode=7;
+
+	gettrees file=RarifiedM50-765.tre mode=7;
+
+	gettrees file=RarifiedM50-766.tre mode=7;
+
+	gettrees file=RarifiedM50-767.tre mode=7;
+
+	gettrees file=RarifiedM50-768.tre mode=7;
+
+	gettrees file=RarifiedM50-769.tre mode=7;
+
+	gettrees file=RarifiedM50-770.tre mode=7;
+
+	gettrees file=RarifiedM50-771.tre mode=7;
+
+	gettrees file=RarifiedM50-772.tre mode=7;
+
+	gettrees file=RarifiedM50-773.tre mode=7;
+
+	gettrees file=RarifiedM50-774.tre mode=7;
+
+	gettrees file=RarifiedM50-775.tre mode=7;
+
+	gettrees file=RarifiedM50-776.tre mode=7;
+
+	gettrees file=RarifiedM50-777.tre mode=7;
+
+	gettrees file=RarifiedM50-778.tre mode=7;
+
+	gettrees file=RarifiedM50-779.tre mode=7;
+
+	gettrees file=RarifiedM50-780.tre mode=7;
+
+	gettrees file=RarifiedM50-781.tre mode=7;
+
+	gettrees file=RarifiedM50-782.tre mode=7;
+
+	gettrees file=RarifiedM50-783.tre mode=7;
+
+	gettrees file=RarifiedM50-784.tre mode=7;
+
+	gettrees file=RarifiedM50-785.tre mode=7;
+
+	gettrees file=RarifiedM50-786.tre mode=7;
+
+	gettrees file=RarifiedM50-787.tre mode=7;
+
+	gettrees file=RarifiedM50-788.tre mode=7;
+
+	gettrees file=RarifiedM50-789.tre mode=7;
+
+	gettrees file=RarifiedM50-790.tre mode=7;
+
+	gettrees file=RarifiedM50-791.tre mode=7;
+
+	gettrees file=RarifiedM50-792.tre mode=7;
+
+	gettrees file=RarifiedM50-793.tre mode=7;
+
+	gettrees file=RarifiedM50-794.tre mode=7;
+
+	gettrees file=RarifiedM50-795.tre mode=7;
+
+	gettrees file=RarifiedM50-796.tre mode=7;
+
+	gettrees file=RarifiedM50-797.tre mode=7;
+
+	gettrees file=RarifiedM50-798.tre mode=7;
+
+	gettrees file=RarifiedM50-799.tre mode=7;
+
+	gettrees file=RarifiedM50-800.tre mode=7;
+
+	gettrees file=RarifiedM50-801.tre mode=7;
+
+	gettrees file=RarifiedM50-802.tre mode=7;
+
+	gettrees file=RarifiedM50-803.tre mode=7;
+
+	gettrees file=RarifiedM50-804.tre mode=7;
+
+	gettrees file=RarifiedM50-805.tre mode=7;
+
+	gettrees file=RarifiedM50-806.tre mode=7;
+
+	gettrees file=RarifiedM50-807.tre mode=7;
+
+	gettrees file=RarifiedM50-808.tre mode=7;
+
+	gettrees file=RarifiedM50-809.tre mode=7;
+
+	gettrees file=RarifiedM50-810.tre mode=7;
+
+	gettrees file=RarifiedM50-811.tre mode=7;
+
+	gettrees file=RarifiedM50-812.tre mode=7;
+
+	gettrees file=RarifiedM50-813.tre mode=7;
+
+	gettrees file=RarifiedM50-814.tre mode=7;
+
+	gettrees file=RarifiedM50-815.tre mode=7;
+
+	gettrees file=RarifiedM50-816.tre mode=7;
+
+	gettrees file=RarifiedM50-817.tre mode=7;
+
+	gettrees file=RarifiedM50-818.tre mode=7;
+
+	gettrees file=RarifiedM50-819.tre mode=7;
+
+	gettrees file=RarifiedM50-820.tre mode=7;
+
+	gettrees file=RarifiedM50-821.tre mode=7;
+
+	gettrees file=RarifiedM50-822.tre mode=7;
+
+	gettrees file=RarifiedM50-823.tre mode=7;
+
+	gettrees file=RarifiedM50-824.tre mode=7;
+
+	gettrees file=RarifiedM50-825.tre mode=7;
+
+	gettrees file=RarifiedM50-826.tre mode=7;
+
+	gettrees file=RarifiedM50-827.tre mode=7;
+
+	gettrees file=RarifiedM50-828.tre mode=7;
+
+	gettrees file=RarifiedM50-829.tre mode=7;
+
+	gettrees file=RarifiedM50-830.tre mode=7;
+
+	gettrees file=RarifiedM50-831.tre mode=7;
+
+	gettrees file=RarifiedM50-832.tre mode=7;
+
+	gettrees file=RarifiedM50-833.tre mode=7;
+
+	gettrees file=RarifiedM50-834.tre mode=7;
+
+	gettrees file=RarifiedM50-835.tre mode=7;
+
+	gettrees file=RarifiedM50-836.tre mode=7;
+
+	gettrees file=RarifiedM50-837.tre mode=7;
+
+	gettrees file=RarifiedM50-838.tre mode=7;
+
+	gettrees file=RarifiedM50-839.tre mode=7;
+
+	gettrees file=RarifiedM50-840.tre mode=7;
+
+	gettrees file=RarifiedM50-841.tre mode=7;
+
+	gettrees file=RarifiedM50-842.tre mode=7;
+
+	gettrees file=RarifiedM50-843.tre mode=7;
+
+	gettrees file=RarifiedM50-844.tre mode=7;
+
+	gettrees file=RarifiedM50-845.tre mode=7;
+
+	gettrees file=RarifiedM50-846.tre mode=7;
+
+	gettrees file=RarifiedM50-847.tre mode=7;
+
+	gettrees file=RarifiedM50-848.tre mode=7;
+
+	gettrees file=RarifiedM50-849.tre mode=7;
+
+	gettrees file=RarifiedM50-850.tre mode=7;
+
+	gettrees file=RarifiedM50-851.tre mode=7;
+
+	gettrees file=RarifiedM50-852.tre mode=7;
+
+	gettrees file=RarifiedM50-853.tre mode=7;
+
+	gettrees file=RarifiedM50-854.tre mode=7;
+
+	gettrees file=RarifiedM50-855.tre mode=7;
+
+	gettrees file=RarifiedM50-856.tre mode=7;
+
+	gettrees file=RarifiedM50-857.tre mode=7;
+
+	gettrees file=RarifiedM50-858.tre mode=7;
+
+	gettrees file=RarifiedM50-859.tre mode=7;
+
+	gettrees file=RarifiedM50-860.tre mode=7;
+
+	gettrees file=RarifiedM50-861.tre mode=7;
+
+	gettrees file=RarifiedM50-862.tre mode=7;
+
+	gettrees file=RarifiedM50-863.tre mode=7;
+
+	gettrees file=RarifiedM50-864.tre mode=7;
+
+	gettrees file=RarifiedM50-865.tre mode=7;
+
+	gettrees file=RarifiedM50-866.tre mode=7;
+
+	gettrees file=RarifiedM50-867.tre mode=7;
+
+	gettrees file=RarifiedM50-868.tre mode=7;
+
+	gettrees file=RarifiedM50-869.tre mode=7;
+
+	gettrees file=RarifiedM50-870.tre mode=7;
+
+	gettrees file=RarifiedM50-871.tre mode=7;
+
+	gettrees file=RarifiedM50-872.tre mode=7;
+
+	gettrees file=RarifiedM50-873.tre mode=7;
+
+	gettrees file=RarifiedM50-874.tre mode=7;
+
+	gettrees file=RarifiedM50-875.tre mode=7;
+
+	gettrees file=RarifiedM50-876.tre mode=7;
+
+	gettrees file=RarifiedM50-877.tre mode=7;
+
+	gettrees file=RarifiedM50-878.tre mode=7;
+
+	gettrees file=RarifiedM50-879.tre mode=7;
+
+	gettrees file=RarifiedM50-880.tre mode=7;
+
+	gettrees file=RarifiedM50-881.tre mode=7;
+
+	gettrees file=RarifiedM50-882.tre mode=7;
+
+	gettrees file=RarifiedM50-883.tre mode=7;
+
+	gettrees file=RarifiedM50-884.tre mode=7;
+
+	gettrees file=RarifiedM50-885.tre mode=7;
+
+	gettrees file=RarifiedM50-886.tre mode=7;
+
+	gettrees file=RarifiedM50-887.tre mode=7;
+
+	gettrees file=RarifiedM50-888.tre mode=7;
+
+	gettrees file=RarifiedM50-889.tre mode=7;
+
+	gettrees file=RarifiedM50-890.tre mode=7;
+
+	gettrees file=RarifiedM50-891.tre mode=7;
+
+	gettrees file=RarifiedM50-892.tre mode=7;
+
+	gettrees file=RarifiedM50-893.tre mode=7;
+
+	gettrees file=RarifiedM50-894.tre mode=7;
+
+	gettrees file=RarifiedM50-895.tre mode=7;
+
+	gettrees file=RarifiedM50-896.tre mode=7;
+
+	gettrees file=RarifiedM50-897.tre mode=7;
+
+	gettrees file=RarifiedM50-898.tre mode=7;
+
+	gettrees file=RarifiedM50-899.tre mode=7;
+
+	gettrees file=RarifiedM50-900.tre mode=7;
+
+	gettrees file=RarifiedM50-901.tre mode=7;
+
+	gettrees file=RarifiedM50-902.tre mode=7;
+
+	gettrees file=RarifiedM50-903.tre mode=7;
+
+	gettrees file=RarifiedM50-904.tre mode=7;
+
+	gettrees file=RarifiedM50-905.tre mode=7;
+
+	gettrees file=RarifiedM50-906.tre mode=7;
+
+	gettrees file=RarifiedM50-907.tre mode=7;
+
+	gettrees file=RarifiedM50-908.tre mode=7;
+
+	gettrees file=RarifiedM50-909.tre mode=7;
+
+	gettrees file=RarifiedM50-910.tre mode=7;
+
+	gettrees file=RarifiedM50-911.tre mode=7;
+
+	gettrees file=RarifiedM50-912.tre mode=7;
+
+	gettrees file=RarifiedM50-913.tre mode=7;
+
+	gettrees file=RarifiedM50-914.tre mode=7;
+
+	gettrees file=RarifiedM50-915.tre mode=7;
+
+	gettrees file=RarifiedM50-916.tre mode=7;
+
+	gettrees file=RarifiedM50-917.tre mode=7;
+
+	gettrees file=RarifiedM50-918.tre mode=7;
+
+	gettrees file=RarifiedM50-919.tre mode=7;
+
+	gettrees file=RarifiedM50-920.tre mode=7;
+
+	gettrees file=RarifiedM50-921.tre mode=7;
+
+	gettrees file=RarifiedM50-922.tre mode=7;
+
+	gettrees file=RarifiedM50-923.tre mode=7;
+
+	gettrees file=RarifiedM50-924.tre mode=7;
+
+	gettrees file=RarifiedM50-925.tre mode=7;
+
+	gettrees file=RarifiedM50-926.tre mode=7;
+
+	gettrees file=RarifiedM50-927.tre mode=7;
+
+	gettrees file=RarifiedM50-928.tre mode=7;
+
+	gettrees file=RarifiedM50-929.tre mode=7;
+
+	gettrees file=RarifiedM50-930.tre mode=7;
+
+	gettrees file=RarifiedM50-931.tre mode=7;
+
+	gettrees file=RarifiedM50-932.tre mode=7;
+
+	gettrees file=RarifiedM50-933.tre mode=7;
+
+	gettrees file=RarifiedM50-934.tre mode=7;
+
+	gettrees file=RarifiedM50-935.tre mode=7;
+
+	gettrees file=RarifiedM50-936.tre mode=7;
+
+	gettrees file=RarifiedM50-937.tre mode=7;
+
+	gettrees file=RarifiedM50-938.tre mode=7;
+
+	gettrees file=RarifiedM50-939.tre mode=7;
+
+	gettrees file=RarifiedM50-940.tre mode=7;
+
+	gettrees file=RarifiedM50-941.tre mode=7;
+
+	gettrees file=RarifiedM50-942.tre mode=7;
+
+	gettrees file=RarifiedM50-943.tre mode=7;
+
+	gettrees file=RarifiedM50-944.tre mode=7;
+
+	gettrees file=RarifiedM50-945.tre mode=7;
+
+	gettrees file=RarifiedM50-946.tre mode=7;
+
+	gettrees file=RarifiedM50-947.tre mode=7;
+
+	gettrees file=RarifiedM50-948.tre mode=7;
+
+	gettrees file=RarifiedM50-949.tre mode=7;
+
+	gettrees file=RarifiedM50-950.tre mode=7;
+
+	gettrees file=RarifiedM50-951.tre mode=7;
+
+	gettrees file=RarifiedM50-952.tre mode=7;
+
+	gettrees file=RarifiedM50-953.tre mode=7;
+
+	gettrees file=RarifiedM50-954.tre mode=7;
+
+	gettrees file=RarifiedM50-955.tre mode=7;
+
+	gettrees file=RarifiedM50-956.tre mode=7;
+
+	gettrees file=RarifiedM50-957.tre mode=7;
+
+	gettrees file=RarifiedM50-958.tre mode=7;
+
+	gettrees file=RarifiedM50-959.tre mode=7;
+
+	gettrees file=RarifiedM50-960.tre mode=7;
+
+	gettrees file=RarifiedM50-961.tre mode=7;
+
+	gettrees file=RarifiedM50-962.tre mode=7;
+
+	gettrees file=RarifiedM50-963.tre mode=7;
+
+	gettrees file=RarifiedM50-964.tre mode=7;
+
+	gettrees file=RarifiedM50-965.tre mode=7;
+
+	gettrees file=RarifiedM50-966.tre mode=7;
+
+	gettrees file=RarifiedM50-967.tre mode=7;
+
+	gettrees file=RarifiedM50-968.tre mode=7;
+
+	gettrees file=RarifiedM50-969.tre mode=7;
+
+	gettrees file=RarifiedM50-970.tre mode=7;
+
+	gettrees file=RarifiedM50-971.tre mode=7;
+
+	gettrees file=RarifiedM50-972.tre mode=7;
+
+	gettrees file=RarifiedM50-973.tre mode=7;
+
+	gettrees file=RarifiedM50-974.tre mode=7;
+
+	gettrees file=RarifiedM50-975.tre mode=7;
+
+	gettrees file=RarifiedM50-976.tre mode=7;
+
+	gettrees file=RarifiedM50-977.tre mode=7;
+
+	gettrees file=RarifiedM50-978.tre mode=7;
+
+	gettrees file=RarifiedM50-979.tre mode=7;
+
+	gettrees file=RarifiedM50-980.tre mode=7;
+
+	gettrees file=RarifiedM50-981.tre mode=7;
+
+	gettrees file=RarifiedM50-982.tre mode=7;
+
+	gettrees file=RarifiedM50-983.tre mode=7;
+
+	gettrees file=RarifiedM50-984.tre mode=7;
+
+	gettrees file=RarifiedM50-985.tre mode=7;
+
+	gettrees file=RarifiedM50-986.tre mode=7;
+
+	gettrees file=RarifiedM50-987.tre mode=7;
+
+	gettrees file=RarifiedM50-988.tre mode=7;
+
+	gettrees file=RarifiedM50-989.tre mode=7;
+
+	gettrees file=RarifiedM50-990.tre mode=7;
+
+	gettrees file=RarifiedM50-991.tre mode=7;
+
+	gettrees file=RarifiedM50-992.tre mode=7;
+
+	gettrees file=RarifiedM50-993.tre mode=7;
+
+	gettrees file=RarifiedM50-994.tre mode=7;
+
+	gettrees file=RarifiedM50-995.tre mode=7;
+
+	gettrees file=RarifiedM50-996.tre mode=7;
+
+	gettrees file=RarifiedM50-997.tre mode=7;
+
+	gettrees file=RarifiedM50-998.tre mode=7;
+
+	gettrees file=RarifiedM50-999.tre mode=7;
+
+	gettrees file=RarifiedM50-1000.tre mode=7;
+
+	contree all / majrule=no strict=yes treefile=summaryStrict.tre;
+	
+	log stop;
+
+
+END;
