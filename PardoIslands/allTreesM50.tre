@@ -1,0 +1,39 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thu Oct 18 11:28:04 2018]
+[!
+>Consensus of 882 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 345 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        6 characters are constant (proportion = 0.0173913)
+>        17 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 322
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 1000
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 6200 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 1.3356e+010
+>  Score of best tree(s) found = 1514
+>  Number of trees retained = 882
+>  Time used = 02:40:57 (CPU time = 02:40:00.2)
+]
+	tree MajRule = [&U] (Proterogryinus_scheelei,Greererpeton_burkemorani,(((((Edops_craigi,(Adamanterpeton_ohioensis,((Cochleosaurus_bohemicus,Chenoprosopus_milleri)100,Nigerpeton_ricqlesi)100)100)100,(Iberospondylus_schultzei,((((Acanthostomatops_vorax,Zatrachys_serratus)100,((((Micromelerpeton_credneri,Limnogyrinus_elegans)100,(Apateon_pedestris,(Micropholis_stowi,((Platyrhinops_lyelli,(Doleserpeton_annectens,(Gerobatrachus_hottoni,(((Triadobatrachus_massinoti,(Xenopus_tropicalis,Leptodactylus_mystacinus)100)100,(Cryptobranchus_allegheniensis,(Hynobius_japonicus,Ambystoma_opacum)56.122)100)87.755,(Karaurus_sharovi,Kokartus_honorarius)73.469)100)79.592)79.592)53.061,Amphibamus_grandiceps)79.592)79.592)79.592)79.592,(((Dissorophus_multicinctus,Broiliellus_texensis)66.667,Cacops_aspidephorus_morrisi)100,((Acheloma_cumminsi,Phonerpeton_pricei)66.667,Ecolsonia_cutlerensis)100)100)79.592,Lapillopsis_nana)79.592)79.592,((Onchiodon_labyrinthicus,Eryops_megacephalus)100,(Sclerocephalus_haeuseri,((Glanochthon_latirostris,(Australerpeton_cosgriffi,((Rhineceps_nyasaensis,Uranocentrodon_senekalensis,Broomistega_putterilla)100,(Lydekkerina_huxleyi,(Chomatobatrachus_halei,((((Sangaia_lavina,(Laidleria_gracilis,(Siderops_kehli,Batrachosuchus_watsoni,((Plagiosuchus_pustuliferus,Gerrothorax_pulcherrimus)100,(Rileymillerus_cosgriffi,(Chinlestegophis_jenkinsi,(Eocaecilia_micropodia,(Epicrionops_bicolor,Ichthyophis_bannannicus)100)97.959)81.633)79.592)55.102)55.102)61.224)55.102,((Peltostega_erici,Lyrocephaliscus_euri)100,Trematosaurus_brauni,(Trematolestes_hagdorni,(Callistomordax_kugleri,Metoposaurus_diagnosticus)100)79.592)100)79.592,(Benthosuchus_sushkini,(Parotosuchus,((Paracyclotosaurus_davidi,Mastodonsaurus_giganteus)100,Cyclotosaurus_robustus)100)100)59.184)55.102,Edingerella_madagascariensis)79.592)79.592)79.592)79.592)79.592)79.592,(Archegosaurus_decheni,Platyoposaurus_stuckenbergi)100)79.592)79.592)79.592)100,Peltobatrachus_pustulatus)100)100)100,Capetus_palustris)100,(Dendrerpeton_acadianum,Balanerpeton_woodi)100)100,((Trimerorhachis_insignis,Neldasaurus_wrightae)100,(Isodectes_obtusus,Acroplous_vorax)100)100)100)0;
+end;

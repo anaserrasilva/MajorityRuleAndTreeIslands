@@ -2,7 +2,7 @@
 
 begin paup;
 
-    log file=AllIslandConsensus.log start replace=yes;
+    log file=AllIslandsConsensus.log start replace=yes;
 
     set autoclose=yes;
 

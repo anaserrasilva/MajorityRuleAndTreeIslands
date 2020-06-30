@@ -2,7 +2,7 @@
 
 begin paup;
 
-    log file=summaryRarefiedStrict.log start replace=yes;
+    log file=summaryStrict.log start replace=yes;
 
     set autoclose=yes;
 

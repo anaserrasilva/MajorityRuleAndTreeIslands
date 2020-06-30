@@ -2,7 +2,7 @@
 
 begin paup;
 
-    log file=summaryRarefiedM50.log start replace=yes;
+    log file=summaryM50.log start replace=yes;
 
     set autoclose=yes;
 

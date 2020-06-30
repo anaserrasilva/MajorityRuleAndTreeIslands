@@ -5,14 +5,14 @@ Wed Jul 03 09:28:19 2019
 
 
 Processing TREES block from file:
-D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\FirstIslandWeights.tre
+D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedM50\FirstIslandWeights.tre
   Keeping: trees from file (replacing any trees already in memory)
   18 trees read from file
 
   Time used = 0.01 sec (CPU time = 0.00 sec)
 
 Processing TREES block from file:
-D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\SecondIslandWeights.tre
+D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedM50\SecondIslandWeights.tre
   Keeping: trees in memory plus trees from file
   18 trees originally in memory
   72 trees read from file
@@ -22,7 +22,7 @@ D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\SecondIsla
   Time used = 0.00 sec (CPU time = 0.00 sec)
 
 Processing TREES block from file:
-D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\ThirdIslandWeights.tre
+D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedM50\ThirdIslandWeights.tre
   Keeping: trees in memory plus trees from file
   90 trees originally in memory
   90 trees read from file
@@ -32,7 +32,7 @@ D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\ThirdIslan
   Time used = 0.00 sec (CPU time = 0.00 sec)
 
 Processing TREES block from file:
-D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\FourthIslandWeights.tre
+D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedM50\FourthIslandWeights.tre
   Keeping: trees in memory plus trees from file
   180 trees originally in memory
   216 trees read from file
@@ -42,7 +42,7 @@ D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\FourthIsla
   Time used = 0.02 sec (CPU time = 0.02 sec)
 
 Processing TREES block from file:
-D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\FifthIslandWeights.tre
+D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedM50\FifthIslandWeights.tre
   Keeping: trees in memory plus trees from file
   396 trees originally in memory
   486 trees read from file
@@ -385,7 +385,7 @@ Bipartitions found in one or more trees and frequency of occurrence:
 .................*.............................*************.*****..........          0.20    4.00%
 
 Consensus tree(s) written to treefile:
-D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\AllIslands50.tre
+D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedM50\AllIslands50.tre
 
 Strict consensus of 882 trees:
 
@@ -542,4 +542,4 @@ Strict consensus of 882 trees:
                                                                \------ Acroplous vorax
 
 Consensus tree(s) written to treefile:
-D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedMJ\AllIslandsStrict.tre
+D:\Documents\HigherEducation\PhD\Pardo\MajorityRuleIslands\WeightedM50\AllIslandsStrict.tre
