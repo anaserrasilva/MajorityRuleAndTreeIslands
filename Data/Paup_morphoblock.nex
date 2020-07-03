@@ -1,0 +1,27 @@
+#NEXUS
+
+begin paup;
+
+    log file=PardoPar.log start replace=yes;
+
+    set autoclose=yes;
+
+	execute PardoCharacters.nex;
+	
+	outgroup Proterogryinus_scheelei;
+
+	set criterion=parsimony	root=outgroup storebrlens=yes increase=auto;
+
+    hsearch addseq=random nreps=1000 swap=tbr hold=1;
+
+    savetrees file=mytrees.tre format=altnex brlens=yes;
+
+    contree all / majrule=yes strict=no treefile=myMJConsensustree.tre;
+	
+	contree all / majrule=no strict=yes treefile=myConsensustree.tre;
+	
+	pscores /ci=yes ri=yes;
+ 
+    log stop;
+
+END;

@@ -1,0 +1,11 @@
+#NEXUS
+
+BEGIN MRBAYES;
+set autoclose=yes nowarn=yes; 
+lset coding=all rates=invgamma;
+prset applyto=(all) ratepr=variable;
+mcmcp ngen= 10000000 relburnin=yes burninfrac=0.25 printfreq=1000 samplefreq=1000 nchains=4 savebrlens=yes; 
+mcmc;
+sumt; 
+sump;
+END;
