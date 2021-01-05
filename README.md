@@ -8,7 +8,7 @@ Serra Silva, A. and Wilkinson, M. (202#). On defining islands of trees and their
 
 - Data: contains the datamatrix and PAUP* and MrBayes blocks used to run the phylogenetic analyses
 
-- PardoIslands.zip: contains the Nexus formatted treefiles containing the TBR/SPR/NNI islands of most parsimonious trees yielded by [Pardo et al.](https://pubmed.ncbi.nlm.nih.gov/28630337/)'s (2017) datamatrix, and the strict and majority-rule consensus of all trees
+- PardoPars_Islands.zip: contains the Nexus formatted treefiles containing the TBR/SPR/NNI islands of most parsimonious trees yielded by [Pardo et al.](https://pubmed.ncbi.nlm.nih.gov/28630337/)'s (2017) datamatrix, and the strict and majority-rule consensus of all trees
   - FirstIsland.tre has 18 trees
   - SecondIsland.tre has 72 trees
   - ThirdIsland.tre has 90 trees
@@ -41,11 +41,24 @@ Serra Silva, A. and Wilkinson, M. (202#). On defining islands of trees and their
 
 \newline
 
-- PardoBayes_islands.zip: contains the files needed to extract NNI islands from a Bayesian tree distribution and the NNI islands
+- PardoBayes_1-NNIislands.zip: contains the files needed to extract NNI islands from a Bayesian tree distribution and the NNI islands
   - PardoCharacters.nex.trprobs is the Bayesian tree distribution from an analysis of [Pardo et al.](https://pubmed.ncbi.nlm.nih.gov/28630337/)'s (2017) datamatrix
   - nniIslands_PardoBayes_series.R performs the island extraction
   - nniIslands_PardoBayes_parallel.r performs the island extraction with a parallel implementation
   - islandFiles contains the NNI islands extracted from the Bayesian tree distribution
+  
+\newline
+
+- PardoPars_12-RFIslands.zip: contains the script to extract 12-RD islands from the MPT distribution (can be edited for the Bayesian extractions) and the 12-RF islands
+
+\newline
+
+- PardoBayes_x-RFislands.zip: contains the 2- to 12-RF islands extracted from the Bayesian distribution
+  - x-RF folders contain the x-RF islands extracted from the Bayesian tree distribution
+  
+\newline
+
+- MDS.zip: contains the script to run a multidimensional scale analysis of the 1-NNI islands of the Parsimony and Bayesian tree distributions, it also contains the MDS plots
 
 
 ### Citations
