@@ -2,7 +2,7 @@
 
 Supplementary data for:
 
-Serra Silva, A. and Wilkinson, M. (202#). On defining islands of trees and their effects on consensus. *In prep.*
+Serra Silva, A. and Wilkinson, M. (2021). [On defining islands of trees and their effects on consensus.](https://academic.oup.com/sysbio/article/70/6/1282/6179823)
 
 ### Contents of each folder
 
